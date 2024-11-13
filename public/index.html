@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio Website HTML CSS JS</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">EYA.</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1;">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#portfolio" style="--i:4;">Portfolio</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION DESIGN -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Rhea Macatol</h1>
+            <h3>I'm a <span class="multiple-text"></span></h3>
+            <p>Feel free to explore my portfolio and see my work!</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/rhea.macatol.dhea16?mibextid=LQQJ4d" target="_blank" style="--i:5;"><i class='bx bxl-facebook'></i></a>
+                <a href="#" style="--i:6;"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/eyyaxx_/" target="_blank" style="--i:7;"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#" style="--i:8;"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="home_.png" alt="Rhea Macatol">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION DESIGN -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. 
+                It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            
+            <div class="personal-info">
+                <div class="info-item">
+                    <strong>Name:</strong>
+                    <span>Rhea E. Macatol</span>
+                </div>
+                <div class="info-item">
+                    <strong>Date of birth:</strong>
+                    <span>November 29, 2002</span>
+                </div>
+                <div class="info-item">
+                    <strong>Address:</strong>
+                    <span>Villa Fidela, Brgy. Elias Aldana, Las Piñas</span>
+                </div>
+                <div class="info-item">
+                    <strong>Email:</strong>
+                    <span>eyamacatol@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <strong>Phone:</strong>
+                    <span>+63 967 221 0112</span>
+                </div>
+            </div>
+    
+            <div class="hobbies">
+                <div class="hobby-item">
+                    <i class='bx bx-music'></i>
+                    <span>Music</span>
+                </div>
+                <div class="hobby-item">
+                    <i class='bx bx-film'></i>
+                    <span>Movie</span>
+                </div>
+                <div class="hobby-item">
+                    <i class='bx bx-football'></i>
+                    <span>Sports</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- SKILLS SECTION DESIGN -->
+    <section class="skills" id = "skills">
+        <div class="Skills-content">
+            <h2 class="heading">My Skills</h2>   
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <div class="progress-circle" data-progress="95">
+                    <span>95%</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <div class="progress-circle" data-progress="98">
+                    <span>98%</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Python</h3>
+                <div class="progress-circle" data-progress="68">
+                    <span>85%</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <h3>Java</h3>
+                <div class="progress-circle" data-progress="68">
+                    <span>73%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- PORTFOLIO SECTION DESIGN -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="IT COMPANY.png" alt="IT Company Website">
+                <h3>IT Company Website</h3>
+                <p>This is an IT Company website that showcases the services and solutions we offer. It features a clean design, easy navigation, and highlights our team and projects.</p>
+                <a href="https://eyaax.github.io/codecrafters" target="_blank" class="btn">View Project</a>
+            </div>
+            <div class="portfolio-item">
+                <img src="CVSU.png" alt="CVSU Website">
+                <h3>CVSU Website</h3>
+                <p>The CVSU website is the homepage for a university. It provides information about the school, its programs, and upcoming events. The layout is user-friendly and visually appealing.</p>
+                <a href="https://eyaax.github.io/codecrafters/home.html" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION DESIGN -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Get in <span>Touch</span></h2>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="successMessage" style="display: none; color: #0ef; margin-top: 10px;">
+            Message successfully sent!
+        </div>
+    </section>
+</body>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+        // Check if JavaScript is running by logging a message to the console
+        console.log("JavaScript is loaded.");
+    
+        // Select the form and the success message div
+        const contactForm = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+    
+        if (contactForm) {
+            console.log("Contact form found.");
+    
+            // Add an event listener for form submission
+            contactForm.addEventListener('submit', function(event) {
+                event.preventDefault(); // Prevent actual form submission
+                console.log("Form submitted."); // Log to confirm form submission
+    
+                // Display the success message
+                successMessage.style.display = 'block';
+    
+                // Optionally, hide the message after a few seconds
+                setTimeout(() => {
+                    successMessage.style.display = 'none';
+                }, 3000); // Message disappears after 3 seconds
+    
+                // Reset form fields
+                contactForm.reset();
+            });
+        } else {
+            console.log("Contact form not found.");
+        }
+    </script>
+    
+
+</html>
